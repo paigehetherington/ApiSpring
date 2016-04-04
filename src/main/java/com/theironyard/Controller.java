@@ -2,6 +2,7 @@ package com.theironyard;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.HashMap;
@@ -10,6 +11,7 @@ import java.util.HashSet;
 /**
  * Created by vajrayogini on 3/31/16.
  */
+@RestController
 public class Controller {
     static final String SAMPLE_URL = "http://gturnquist-quoters.cfapps.io/api/random";
 
